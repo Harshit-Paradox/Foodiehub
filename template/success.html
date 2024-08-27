@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+    <style>
+        
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: white;
+      color:  black;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Your message has been sent successfully!</p>
+        <a href= {% url 'home' %} style="color: black; text-decoration: none;">Home</a>
+    </div>
+</body>
+</html>
